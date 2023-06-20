@@ -25,7 +25,7 @@ function Search({setHavaDurumu}) {
     <div className='arama'>
         <input
          className='arama-input'
-          type="texv"
+          type="text"
            placeholder='Şehir'
            onChange={(e) => setAraParametre(e.target.value)}
            value={araParametre}
