@@ -7,7 +7,6 @@ import sisli from "../../img/foggy.jfif"
 import bulutlu from "../../img/cloud.jpg"
 import gokkusagi from "../../img/rainbow-weather.jpg"
 function ResimCek({durum}) {
-    // SWITCH CASE bir React uygulamasında, kullanıcının bir butona tıklamasına bağlı olarak farklı işlevlerin veya bileşenlerin çalıştırılması gerekebilir. Bu durumda, onClick olayı tetiklendiğinde switch case ifadesi kullanılabilir
   switch (durum) {
     case "Rain":
         return <img className='arkaplan-resim' src={yagmurlu} alt="yağmurlu"/>
