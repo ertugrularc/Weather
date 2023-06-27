@@ -9,7 +9,7 @@ function App() {
   const [havaDurumu, setHavaDurumu] = useState({})
   return (
     <section className="uygulama">
-      {/* havadurumu.weather içinde bilgi varsa weather[0].main parametresini gönder */}
+
      <Arkaplan background={havaDurumu.weather && havaDurumu.weather[0].main} />
      <div id='baslik'> Hava Durumu
      </div>
