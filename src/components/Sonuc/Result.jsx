@@ -3,7 +3,7 @@ import React from "react";
 function Result({ hava }) {
   return (
     <>
-      {/* oraya main dememizin sebebi gelen hava derecesi hava.mainden  */}
+    
       {typeof hava.main != "undefined" && (
         <div className="sonuc">
           <div className="sehir">
