@@ -12,7 +12,7 @@ function Search({setHavaDurumu}) {
 
   const ara = (e) => {
     if(e.key === "Enter"){
-      // fetch veri alışverişi yapmak için kullanılır
+      
       fetch(`${api.base}?q=${araParametre}&units=metric&lang=TR&appid=${api.key}`)
       .then((veri) => veri.json())
       .then((sonuc) => {
